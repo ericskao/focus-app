@@ -5,6 +5,7 @@ import useSound from 'use-sound';
 import boopSfx from '../src/assets/audio/sample.mp3';
 import boopSfx2 from '../src/assets/audio/sample-12s.mp3';
 import Header from './components/Header';
+import MainBody from './components/MainBody/MainBody';
 
 function App() {
   // const [play] = useSound(boopSfx);
@@ -13,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div>stufff</div>
+      <MainBody />
       <FontAwesomeIcon icon={faCoffee} />
     </div>
   );
