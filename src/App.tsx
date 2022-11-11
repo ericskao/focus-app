@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Header />
       <MainBody />
-      <FontAwesomeIcon icon={faCoffee} />
+      {/* <FontAwesomeIcon icon={faCoffee} /> */}
     </div>
   );
 }
